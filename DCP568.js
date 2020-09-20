@@ -12,7 +12,7 @@ const squared = arr => {
         newArr.push(element *= element);
     });
 
-    return newArr.sort();
+    return newArr.sort((a,b) => a - b);
 
 };
 
